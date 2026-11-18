@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#050907">
+  <meta name="description" content="Samuel Antonio — Analista de QA. Testes manuais, automação Web e API, qualidade de software e CI/CD.">
+  <meta property="og:title" content="Samuel Antonio | QA Engineer">
+  <meta property="og:description" content="Qualidade não é uma etapa. É parte de todo o processo.">
+  <meta property="og:type" content="website">
+  <title>Samuel Antonio | QA Engineer</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' fill='%23050907'/%3E%3Ctext x='50' y='68' font-size='48' text-anchor='middle' fill='%2300ff66' font-family='monospace'%3EQA%3C/text%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600;700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <canvas id="matrix-rain" aria-hidden="true"></canvas>
+  <div class="scanlines" aria-hidden="true"></div>
+
+  <nav class="nav">
+    <a class="brand" href="#inicio">SA<span>_</span>QA</a>
+    <button class="menu-toggle" id="menu-toggle" aria-label="Abrir menu" aria-expanded="false">☰</button>
+    <div class="nav-links" id="nav-links">
+      <a href="#sobre">Sobre</a>
+      <a href="#habilidades">Habilidades</a>
+      <a href="#projetos">Projetos</a>
+      <a href="#experiencia">Experiência</a>
+      <a href="#contato">Contato</a>
+    </div>
+    <span class="nav-status"><i></i> SYSTEM ONLINE</span>
+  </nav>
+
+  <main>
+    <header class="hero section-wrap" id="inicio">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="prompt">&gt;</span> INICIALIZANDO AMBIENTE QA <span class="cursor">█</span></p>
+        <h1>SAMUEL<br><span class="glow">ANTONIO</span></h1>
+        <p class="hero-role">ANALISTA DE QA <span>//</span> TESTES DE SOFTWARE</p>
+        <p class="hero-lead">Investigo comportamentos, antecipo riscos e transformo requisitos em cenários de teste confiáveis. Atuação em <strong>testes manuais, automação Web e API</strong>, com foco na qualidade em todo o ciclo de desenvolvimento.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projetos">// VER PROJETOS</a>
+          <a class="button button-ghost" href="https://github.com/SamuelAntonio" target="_blank" rel="noopener noreferrer">GITHUB ↗</a>
+          <a class="button button-ghost" href="#contato">CONTATO</a>
+        </div>
+        <div class="availability"><span class="pulse"></span> DISPONÍVEL PARA OPORTUNIDADES</div>
+      </div>
+
+      <aside class="terminal-card" aria-label="Terminal com resumo de execução de testes">
+        <div class="terminal-top"><span></span><span></span><span></span><b>qa-core / diagnostic.sh</b></div>
+        <div class="terminal-content" id="terminal-output">
+          <p><em>$</em> ./run-quality-checks.sh</p>
+          <p class="muted">Carregando ambiente de testes...</p>
+          <p class="success">✓ Test environment ready</p>
+          <p class="success">✓ Quality mindset enabled</p>
+          <p class="success">✓ Regression suite prepared</p>
+          <p class="terminal-final"><em>$</em> <span class="cursor">█</span></p>
+        </div>
+        <div class="terminal-foot"><span>LOCAL ENVIRONMENT</span><span>BUILD: QA-001</span></div>
+      </aside>
+      <div class="hero-watermark" aria-hidden="true">01010001<br>01000001</div>
+    </header>
+
+    <section class="section section-wrap" id="sobre">
+      <p class="section-index">// 01 — IDENTIDADE</p>
+      <h2>QUALIDADE EM <span class="glow">CADA CAMADA.</span></h2>
+      <div class="about-grid">
+        <div class="about-mark">
+          <div class="qa-symbol">QA<span>+</span></div>
+          <p>QUESTION<br>→ INVESTIGATE<br>→ VALIDATE</p>
+        </div>
+        <div class="about-text">
+          <p>Sou profissional de Tecnologia da Informação com experiência em <strong>Qualidade de Software (QA)</strong>, participando de atividades de análise, planejamento, execução e automação de testes.</p>
+          <p>Gosto de entender a regra de negócio antes de testar, explorar caminhos alternativos e comunicar defeitos com clareza. Acredito que um bom QA não procura apenas erros: ajuda o time a entregar software mais previsível, seguro e confiável.</p>
+          <p>Minha trajetória combina testes funcionais e regressivos, automação, validação de APIs, análise de logs e colaboração com equipes de desenvolvimento.</p>
+        </div>
+      </div>
+      <div class="metrics">
+        <article><strong>33%</strong><span>redução no ciclo de regressão em projeto</span></article>
+        <article><strong>100+</strong><span>cenários BDD elaborados/automatizados</span></article>
+        <article><strong>QA</strong><span>foco em qualidade e melhoria contínua</span></article>
+      </div>
+      <p class="small-note">Indicadores baseados em experiências e entregas profissionais; detalhes podem ser apresentados em conversa.</p>
+    </section>
+
+    <section class="section section-wrap" id="habilidades">
+      <p class="section-index">// 02 — FERRAMENTAS</p>
+      <h2>STACK <span class="glow">DE TESTES</span></h2>
+      <p class="section-intro">Ferramentas e práticas que utilizo para investigar, validar e automatizar software.</p>
+      <div class="skills-grid">
+        <article class="skill-panel">
+          <span class="skill-code">[01]</span><h3>TESTES & QUALIDADE</h3>
+          <div class="tags"><span>Testes funcionais</span><span>Regressão</span><span>Exploratórios</span><span>BDD / Gherkin</span><span>Casos de teste</span><span>Critérios de aceite</span></div>
+        </article>
+        <article class="skill-panel">
+          <span class="skill-code">[02]</span><h3>AUTOMAÇÃO</h3>
+          <div class="tags"><span>Robot Framework</span><span>Playwright</span><span>Browser Library</span><span>Python</span><span>JavaScript</span><span>TypeScript</span></div>
+        </article>
+        <article class="skill-panel">
+          <span class="skill-code">[03]</span><h3>API & PERFORMANCE</h3>
+          <div class="tags"><span>Postman</span><span>Requests</span><span>REST API</span><span>JMeter</span><span>JSON</span></div>
+        </article>
+        <article class="skill-panel">
+          <span class="skill-code">[04]</span><h3>DEVOPS & OBSERVABILIDADE</h3>
+          <div class="tags"><span>Git</span><span>GitHub Actions</span><span>Azure DevOps</span><span>CI/CD</span><span>Datadog</span></div>
+        </article>
+        <article class="skill-panel">
+          <span class="skill-code">[05]</span><h3>DADOS & CONSULTAS</h3>
+          <div class="tags"><span>SQL</span><span>MySQL</span><span>SELECT / JOIN</span><span>Validação de dados</span></div>
+        </article>
+        <article class="skill-panel">
+          <span class="skill-code">[06]</span><h3>PROCESSOS</h3>
+          <div class="tags"><span>Lean Six Sigma</span><span>Melhoria contínua</span><span>Rastreabilidade</span><span>Análise de requisitos</span></div>
+        </article>
+      </div>
+      <p class="small-note">A lista prioriza tecnologias com experiência prática. Outras ferramentas fazem parte dos meus estudos e evolução técnica.</p>
+    </section>
+
+    <section class="section section-wrap" id="projetos">
+      <p class="section-index">// 03 — LABORATÓRIO</p>
+      <h2>PROJETOS <span class="glow">EM DESTAQUE</span></h2>
+      <p class="section-intro">Evidências práticas de planejamento, análise e automação de testes.</p>
+      <div class="projects-grid">
+        <article class="project-card featured">
+          <div class="project-top"><span>CASE_001</span><span class="project-state">● PUBLIC REPOSITORY</span></div>
+          <h3>SEA TECNOLOGIA — AUTOMAÇÃO</h3>
+          <p>Projeto de automação de testes para uma aplicação de gestão de funcionários. Inclui mapeamento de cenários, testes E2E, validações de API, análise de defeitos e execução automatizada.</p>
+          <div class="tags"><span>Robot Framework</span><span>Python</span><span>Browser / Playwright</span><span>Requests</span><span>GitHub Actions</span></div>
+          <ul class="project-points"><li>Fluxos de cadastro e regras condicionais de EPI</li><li>Testes de API com operações CRUD</li><li>Documentação de cenários e evidências</li></ul>
+          <a class="text-link" href="https://github.com/SamuelAntonio/desafio-sea-tecnologia-automacao" target="_blank" rel="noopener noreferrer">ACESSAR REPOSITÓRIO ↗</a>
+        </article>
+        <article class="project-card">
+          <div class="project-top"><span>CASE_002</span><span class="project-state">● EXPERIENCE</span></div>
+          <h3>OTIMIZAÇÃO DE TESTES REGRESSIVOS</h3>
+          <p>Atuação em melhoria do processo de regressão, contribuindo para reduzir o ciclo de execução de seis para quatro dias úteis.</p>
+          <div class="tags"><span>QA</span><span>Regressão</span><span>Lean Six Sigma</span><span>Processos</span></div>
+          <div class="project-result"><strong>−33%</strong><span>no tempo do ciclo de regressão</span></div>
+        </article>
+        <article class="project-card">
+          <div class="project-top"><span>CASE_003</span><span class="project-state">● IN PROGRESS</span></div>
+          <h3>ESTUDOS DE AUTOMAÇÃO</h3>
+          <p>Prática contínua de automação Web e API, organização de cenários BDD e integração de execução automatizada ao fluxo de versionamento.</p>
+          <div class="tags"><span>Playwright</span><span>JavaScript</span><span>TypeScript</span><span>BDD</span><span>CI</span></div>
+          <a class="text-link" href="https://github.com/SamuelAntonio" target="_blank" rel="noopener noreferrer">VER GITHUB ↗</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="section section-wrap" id="experiencia">
+      <p class="section-index">// 04 — TRAJETÓRIA</p>
+      <h2>EXPERIÊNCIA <span class="glow">PROFISSIONAL</span></h2>
+      <div class="timeline">
+        <article class="timeline-item">
+          <span class="timeline-dot"></span>
+          <p class="timeline-meta">QUALIDADE DE SOFTWARE · TECNOLOGIA</p>
+          <h3>Analista / QA de Software</h3>
+          <p>Experiência em times de tecnologia, atuando em squads e produtos digitais com testes manuais, regressivos e automatizados.</p>
+          <ul><li>Criação e execução de cenários de teste com BDD.</li><li>Automação com Robot Framework e ferramentas baseadas em Playwright.</li><li>Validação de APIs, análise de logs e acompanhamento de performance.</li><li>Colaboração com desenvolvimento e produto para investigar e reportar defeitos.</li></ul>
+        </article>
+        <article class="timeline-item">
+          <span class="timeline-dot"></span>
+          <p class="timeline-meta">FORMAÇÃO & DESENVOLVIMENTO</p>
+          <h3>Aprendizado contínuo</h3>
+          <p><strong>Sistemas de Informação</strong> — UPIS</p>
+          <p><strong>Pós-graduação em Data Science</strong></p>
+          <p><strong>Lean Six Sigma Green Belt</strong></p>
+          <p class="small-note">Preparação e aprofundamento em fundamentos de teste de software (CTFL).</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section section-wrap contact-section" id="contato">
+      <p class="section-index">// 05 — CONEXÃO</p>
+      <h2>VAMOS TESTAR <span class="glow">NOVAS POSSIBILIDADES?</span></h2>
+      <p class="section-intro">Estou aberto a oportunidades na área de QA e Testes de Software. Vamos conversar sobre qualidade, tecnologia e desafios.</p>
+      <div class="contact-links">
+        <a href="https://github.com/SamuelAntonio" target="_blank" rel="noopener noreferrer">GITHUB ↗</a>
+        <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer" id="linkedin-link">LINKEDIN ↗</a>
+        <a href="mailto:SEU_EMAIL_AQUI" id="email-link">E-MAIL ↗</a>
+      </div>
+      <p class="contact-location">⌖ BRASÍLIA — DF — BRASIL</p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <span>© <span id="year"></span> SAMUEL ANTONIO</span>
+    <span>BUILT WITH <b>QUALITY</b> // MATRIX MODE</span>
+    <a href="#inicio">BACK TO TOP ↑</a>
+  </footer>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
